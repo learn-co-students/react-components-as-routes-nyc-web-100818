@@ -236,8 +236,8 @@ and want to write code that can scale, let's refactor!
 
 ### Components as Props
 
-If we look closely, we see our 'components' being passed to the `render` props
-are merely functions defined above that return JSX.
+If we look closely, we see **our 'components' being passed to the `render` props
+are merely functions defined above that return JSX**.
 
 So far, we have been using the __Route__ component's `render` prop to describe
 what should be rendered when a match occurs. As an alternative to defining the
